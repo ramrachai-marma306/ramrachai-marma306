@@ -1,4 +1,94 @@
-## Hey I am Ramrachai Marma 👋
+## Hey👋
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>I am Ramrachai Marma Animation</title>
+<style>
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #111;
+    font-family: 'Comic Sans MS', cursive;
+  }
+
+  .animated-text {
+    font-size: 3em;
+    display: flex;
+  }
+
+  /* Each letter has gradient + bounce + slow fade */
+  .animated-text span {
+    opacity: 0;
+    animation: bounceFade 5s ease-in-out infinite;
+    background: linear-gradient(90deg, #000000, #ffffff, #ffd700); /* black, white, yellow */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+  }
+
+  /* Letter delays for natural typing */
+  .animated-text span:nth-child(1)  { animation-delay: 0s; }   /* I */
+  .animated-text span:nth-child(2)  { animation-delay: 0.2s; } /* space */
+  .animated-text span:nth-child(3)  { animation-delay: 0.4s; } /* a */
+  .animated-text span:nth-child(4)  { animation-delay: 0.6s; } /* m */
+  .animated-text span:nth-child(5)  { animation-delay: 0.8s; } /* space */
+  .animated-text span:nth-child(6)  { animation-delay: 1s; }   /* R */
+  .animated-text span:nth-child(7)  { animation-delay: 1.2s; } /* a */
+  .animated-text span:nth-child(8)  { animation-delay: 1.4s; } /* m */
+  .animated-text span:nth-child(9)  { animation-delay: 1.6s; } /* r */
+  .animated-text span:nth-child(10) { animation-delay: 1.8s; } /* a */
+  .animated-text span:nth-child(11) { animation-delay: 2s; }   /* c */
+  .animated-text span:nth-child(12) { animation-delay: 2.2s; } /* h */
+  .animated-text span:nth-child(13) { animation-delay: 2.4s; } /* a */
+  .animated-text span:nth-child(14) { animation-delay: 2.6s; } /* i */
+  .animated-text span:nth-child(15) { animation-delay: 2.8s; } /* space */
+  .animated-text span:nth-child(16) { animation-delay: 3s; }   /* M */
+  .animated-text span:nth-child(17) { animation-delay: 3.2s; } /* a */
+  .animated-text span:nth-child(18) { animation-delay: 3.4s; } /* r */
+  .animated-text span:nth-child(19) { animation-delay: 3.6s; } /* m */
+  .animated-text span:nth-child(20) { animation-delay: 3.8s; } /* a */
+
+  /* Bounce + fade keyframes */
+  @keyframes bounceFade {
+    0%   { opacity: 0; transform: translateY(-20px) scale(0.9); }
+    25%  { opacity: 1; transform: translateY(0) scale(1.05); }
+    50%  { opacity: 1; transform: translateY(-5px) scale(1); }
+    75%  { opacity: 1; transform: translateY(0) scale(1.05); }
+    100% { opacity: 0; transform: translateY(-20px) scale(0.9); }
+  }
+</style>
+</head>
+<body>
+
+<div class="animated-text">
+  <span>I</span>
+  <span> </span>
+  <span>a</span>
+  <span>m</span>
+  <span> </span>
+  <span>R</span>
+  <span>a</span>
+  <span>m</span>
+  <span>r</span>
+  <span>a</span>
+  <span>c</span>
+  <span>h</span>
+  <span>a</span>
+  <span>i</span>
+  <span> </span>
+  <span>M</span>
+  <span>a</span>
+  <span>r</span>
+  <span>m</span>
+  <span>a</span>
+</div>
+
+</body>
+</html>
 
 
 
