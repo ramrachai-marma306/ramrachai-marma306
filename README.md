@@ -1,5 +1,7 @@
 ## Hey👋
 ![I am Ramrachai Marma](assets/animated_name.svg)
+![I am Ramrachai Marma](assets/animated_name.gif)
+
 
 
 
