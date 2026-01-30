@@ -1,5 +1,6 @@
 ## Hey👋
-[See my animated name](https://yourusername.github.io/animated_name.html)
+![I am Ramrachai Marma](assets/animated_name.svg)
+
 
 
 
