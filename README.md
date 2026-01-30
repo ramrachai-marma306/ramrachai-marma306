@@ -1,6 +1,5 @@
 ## Hey I am Ramrachai Marma 👋
 
-## Hi there I am Ramrachai Marma👋
 
 
 ## 🧠 About Me
