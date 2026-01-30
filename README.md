@@ -10,7 +10,7 @@
 <td width="60%">
 
 Hi, I’m a backend-focused developer specializing in *Python and Django*.  
-I enjoy building scalable APIs, managing databases, and writing clean backend logic.  
+I can enjoy building scalable APIs, managing databases, and writing clean backend logic.  
 
 Currently learning and improving my backend skills through real-world projects.
 
